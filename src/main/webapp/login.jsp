@@ -10,7 +10,7 @@
     <!--github 연습-->
     <!--github 수정 푸시 연습-->
     <!--파비콘 추가-->
-    <link rel="icon" type="image/png" href="http://localhost:8081/lunchAid/imgs/lunchaid.png">
+    <link rel="icon" type="image/png" href="http://localhost:8081/lunchAid/imgs/char01.png">
     
     <!--부트스트랩5 css 추가-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
@@ -34,9 +34,9 @@
     <div class="container custome-btnContainer mt-5">
         <div class="row justify-content-center">
             <div class="col-md-6">
-                <form name="loginSuccess" action="./lunchAid2css.jsp" method="get" class="custom-contentCenter">
+                <form name="loginSuccess" action="./lunchAid.jsp" method="get" class="custom-contentCenter">
                     <div class="mb-3">
-                        <img src="http://localhost:8081/lunchAid/imgs/char01.png" class="app-logo">
+                        <img src="http://localhost:8081/lunchAid/char01.png" class="app-logo">
                         <input type="text" class="custom-inputText form-control" id="userId" name="userId" placeholder="아이디" required>
                         <input type="password" class="custom-inputText form-control" id="userPwd" name="userPwd" placeholder="비밀번호" required>
                         <button type="submit" class="custom-loginBtn btn btn-primary">로그인</button>
