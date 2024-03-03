@@ -36,7 +36,7 @@
             <div class="col-md-6">
                 <form name="loginSuccess" action="./lunchAid.jsp" method="get" class="custom-contentCenter">
                     <div class="mb-3">
-                        <img src="http://localhost:8081/lunchAid/char01.png" class="app-logo">
+                        <img src="http://localhost:8081/lunchAid/imgs/char01.png" class="app-logo">
                         <input type="text" class="custom-inputText form-control" id="userId" name="userId" placeholder="아이디" required>
                         <input type="password" class="custom-inputText form-control" id="userPwd" name="userPwd" placeholder="비밀번호" required>
                         <button type="submit" class="custom-loginBtn btn btn-primary">로그인</button>
