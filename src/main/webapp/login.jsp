@@ -3,55 +3,46 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="UTF-8">
-<link rel="icon" type="image/png" href="http://localhost:8081/webPro/imgs/lunchaid.png">
-<title>점심 결정은 런치 에이드</title>
-<style>
-/* Color code
-    Deep green : #527853
-    Ivory : #F9E8D9
-    Bright orange : #F7B787
-    Deep orage : #EE7214
- */
-h1 {
-    font-size: 72px;
-    text-align: center;
-    color: #527853;
-}
-h4 {
-    text-align: center;
-    color: dimgray;
-}
-img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-form {
-        text-align: center; /* 부모 요소를 가운데 정렬합니다. */
-}
-input[type="text"], input[type="password"]{
-    width: 300px; height: 30px;
-    margin-bottom: 5px;
-}
-input[type="submit"]{
-    width: 308px; height: 38px;
-    background-color: #527853;
-    color: white; font-weight: bolder; font-size: larger;
-    border: none;
-}   
-</style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>점심 결정은 런치 에이드</title>
+    <!--git에 추가-->
+    <!--파비콘 추가-->
+    <link rel="icon" type="image/png" href="http://localhost:8081/lunchAid/imgs/lunchaid.png">
+    
+    <!--부트스트랩5 css 추가-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    
+    <!--개별 style.css 추가-->
+    <link href="http://localhost:8081/lunchAid/css/style.css" rel="stylesheet">
+
+    <!--javascript bundle-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </head>
 <body>
-  <h1>LUNCH AID</h1>
-  <h4>점심 식당 정보 도우미, 런치 에이드</h4><hr/>
-  <!--img src="http://localhost:8081/webPro/imgs/lunchaid.png" width="350px"; height="350px";-->
-  <br/>
-  <form name="loginSuccess" action="./lunchAid.jsp" method="get">
-    <input type="text" name="userId" placeholder="아이디를 입력하세요" required="required"><br/>
-    <input type="password" name="userPwd" placeholder="비밀번호를 입력하세요" required="required"><br/>
-    <input type="submit" value="로그인">
+    <div class="container-fluid custom-headContainerWhite">
+        <div class="row">
+            <div class="col">
+                <p class="custom-loginTitle">LUNCH AID</p>
+                <p class="custom-loginSubTitle">점심 식당 정보 도우미, 런치 에이드</p>
+            </div>
+        </div>
+    </div>
+    <hr/>
+    <div class="container custome-btnContainer mt-5">
+        <div class="row justify-content-center">
+            <div class="col-md-6">
+                <form name="loginSuccess" action="./lunchAid2css.jsp" method="get" class="custom-contentCenter">
+                    <div class="mb-3">
+                        <img src="http://localhost:8081/lunchAid/imgs/char01.png" class="app-logo">
+                        <input type="text" class="custom-inputText form-control" id="userId" name="userId" placeholder="아이디" required>
+                        <input type="password" class="custom-inputText form-control" id="userPwd" name="userPwd" placeholder="비밀번호" required>
+                        <button type="submit" class="custom-loginBtn btn btn-primary">로그인</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
     
-  </form>
 </body>
 </html>
