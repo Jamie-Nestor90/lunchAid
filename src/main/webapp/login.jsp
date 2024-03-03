@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>점심 결정은 런치 에이드</title>
     <!--git에 추가-->
+    <!--github 연습-->
     <!--파비콘 추가-->
     <link rel="icon" type="image/png" href="http://localhost:8081/lunchAid/imgs/lunchaid.png">
     
