@@ -64,20 +64,12 @@ Color code
     width: 100%;
     margin-bottom: 5px;
     min-width: 400px;
-    max-width: 400px;
-}
-.custom-inputTextNoMb {
-    width: 100%;
-    min-width: 400px;
-    max-width: 400px;
 }
 .custom-loginBtn {
     width: 100%;
     background-color: #527853;
     color: white; font-weight: bold; font-size: larger;
     border: none;
-    /*min-width: 400px;
-    max-width: 400px;*/
 }
 .custom-cancelBtn {
     width: 100%;
