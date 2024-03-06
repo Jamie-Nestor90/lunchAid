@@ -8,88 +8,46 @@ Color code
     Deep orange : #EE7214
 
 */
-.custom-headContainer {
-    width: 100%;
-    height: 120px;
-    line-height: 120px;
-    background-color: #527853;
-    margin-top: auto;
-    margin-bottom: auto;
+
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+/* Carousel base class */
+.carousel {
+  margin-bottom: 4rem;
 }
-.custom-headContainerWhite {
-    background-color: white;
-    padding: 20px;
-    margin-top: auto;
-    margin-bottom: auto;
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  bottom: 3rem;
+  z-index: 10;
 }
-.custom-btnContainer {
-    padding: 20px;
+
+/* Declare heights because of positioning of img element */
+.carousel-item {
+  height: 32rem;
 }
-.custom-mainTitle {
-    font-size: 3rem;
-    font-weight: bold;
-    text-align: center;
-    color: white;
-    margin-top: 0.67em;
-    margin-bottom: 0.67em;
-    line-height: 1.2;
+
+/* 텍스트 스타일 */
+.top3-title-text {
+  margin-left: 10%;
+  font-size: 3rem;
+  font-weight: bold;
+  color: black;
+  margin-bottom: 3rem;
 }
-.custom-loginTitle {
-    font-size: 5rem;
-    font-weight: bold;
-    text-align: center;
-    color: #527853;
-    margin-top: 0.67em;
-    margin-bottom: 0.67em;
-    line-height: 1.2;
+.text-bold {
+  font-weight: bolder;
 }
-.custom-loginSubTitle {
-    font-size: 1.5rem;
-    font-weight: normal;
-    text-align: center;
-    color: dimgray;
-    margin-top: 1.33em;
-    margin-bottom: 1.33em;
-    line-height: 1.2;
+
+
+/* 폰트 */
+.sans-serif {
+  font-family: 'sans-serif';
 }
-.custom-loginSubTitleNoMb {
-    font-size: 1.5rem;
-    font-weight: normal;
-    text-align: center;
-    color: dimgray;
-    margin-top: 1.33em;
-    line-height: 1.2;
+.times-new-roman {
+  font-family: 'Times New Roman';
 }
-.custom-inputText {
-    width: 100%;
-    margin-bottom: 5px;
-    min-width: 400px;
-}
-.custom-loginBtn {
-    width: 100%;
-    background-color: #527853;
-    color: white; font-weight: bold; font-size: larger;
-    border: none;
-}
-.custom-cancelBtn {
-    width: 100%;
-    background-color: grey;
-    color: white; font-weight: bold; font-size: larger;
-    border: none;
-}
-.custom-contentCenter {
-    display: flex;
-    justify-content: center;
-}
-.app-logo {
-    display: block;
-    margin: 0 auto;
-    width: 80%;
-    padding-bottom: 20px;
-}
-.main-img {
-    display: block;
-    margin: 0 auto;
-    width: 30%;
-    padding-bottom: 20px;
-}
+
+
+
+
+
