@@ -43,6 +43,15 @@ Color code
 .svg-shadow {
   filter: drop-shadow(1rem 1rem 1rem grey);
 }
+.bi-emoji-smile:hover::after {
+  content: "쾌적";
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
 
 
 /* 폰트 */
