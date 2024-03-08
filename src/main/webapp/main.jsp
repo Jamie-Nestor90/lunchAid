@@ -161,6 +161,22 @@
 
     </section>
 
+        <div class="card mx-4" style="width: 18rem;">
+            <!-- 내용 -->
+            <div style="height: 200px; overflow: hidden;">
+                <img src="<%= request.getContextPath() + data.foodData01[0] %>" class="card-img-top" alt="이미지가 없습니다." style="object-fit: cover; width: 100%; height: 100%;">
+            </div>
+            <div class="card-body">
+                <h5 class="card-title text-bold sans-serif"><%= data.foodData01[1] %></h5><hr/>
+                <p class="card-text sans-serif"><%= data.foodData01[2] %></p>
+                <p>만족도 : <%= data.foodData01[4] %></p>
+            </div>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item sans-serif">만족도</li>
+                <li class="list-group-item sans-serif">혼잡도</li>
+            </ul>
+        </div>
+
 
     <!--javascript bundle-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
